@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ICON.png" type="image/x-icon">
+    <title>KinaraiDee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <img src="ICON.png" alt="Icon" style="width: 100px; height: auto; vertical-align: middle;">
+            กินอะไรดี
+        </h1>
+        <p>ใส่วัตถุดิบที่คุณมีเป็นภาษาอังกฤษ:</p>
+        <input type="text" id="ingredients" placeholder="เช่น egg, milk,sugar">
+        <button onclick="findRecipes()">ค้นหาสูตรอาหารของคุณ</button>
+
+        <section id="recipes-section">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
